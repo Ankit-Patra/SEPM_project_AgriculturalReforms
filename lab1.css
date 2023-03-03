@@ -1,0 +1,19 @@
+body{
+    background-color: #6ed4d8;
+}
+a{
+    color: rgb(11, 64, 107);
+}
+p1,p3{
+    color: blue;
+}
+th{
+    background-color: green;
+}
+td{
+    color: white;
+    background-color: black;
+}
+h5,h1{
+    text-align: center;
+}
