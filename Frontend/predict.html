@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="predict.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header" id="Home">
+        <nav>
+          <h2 class="logo">Logo</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Your History</a></li>
+            <li><a href="#">Predict</a></li>
+            <li><button class="btn">Welcome</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <div class="info">
+        <h3>Information</h3>
+        <hr />
+        <p>
+          Crop recommendation is one of the most important aspects of precision
+          agriculture. Crop recommendations are based on a number of factors.
+          Precision agriculture seeks to define these criteria on a site-by-site
+          basis in order to address crop selection issues. While the
+          "site-specific" methodology has improved performance, there is still a
+          need to monitor the systems' outcomes.Precision agriculture systems
+          aren't all created equal. However, in agriculture, it is critical that
+          the recommendations made are correct and precise, as errors can result
+          in significant material and capital loss.
+        </p>
+        <h3>How does it work</h3>
+        <hr />
+        <p>
+          Complete all the parameters and the machine learning model will
+          predict the most suitable crops to grow in a particular farm based on
+          various parameters
+        </p>
+      </div>
+      <div class="predict">
+        <h2>Find out the most suitable crop to grow in your farm</h2>
+        <div class="input-box">
+          <input type="number" step="1" required="required" /><span
+            >Nitrogrn</span
+          >
+        </div>
+        <div class="input-box">
+          <input type="number" step="1" required="required" /><span
+            >Phosporous</span
+          >
+        </div>
+        <div class="input-box">
+          <input type="number" step="1" required="required" /><span
+            >Potassium</span
+          >
+        </div>
+        <div class="input-box">
+          <input type="number" step="0.01" required="required" /><span
+            >Temperature</span
+          >
+        </div>
+        <div class="input-box">
+          <input type="number" step="0.01" required="required" /><span
+            >Humidity in %</span
+          >
+        </div>
+        <div class="input-box">
+          <input type="number" step="0.01" required="required" /><span>Ph</span>
+        </div>
+        <div class="input-box">
+          <input type="number" step="0.01" required="required" /><span
+            >Rainfall in mm</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
